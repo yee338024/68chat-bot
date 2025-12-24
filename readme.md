@@ -5,7 +5,12 @@
 
 68助手是一款基于68聊天软件的第三方自动化协议接口，支持通过websocket进行消息的发送与接收，方便开发者进行二次开发与集成，编写各类机器人🤖。
 
-
+## 支持功能
+1️⃣ 消息接收  
+2️⃣ 发送消息  
+3️⃣ 发送文件（视频、图片等）  
+4️⃣ 群信息状态监听（成员进群/退群通知）  
+ 
 ## 联系客服购买卡密
 
 ![Telegram](https://camo.githubusercontent.com/473b7dbc45a8480ab4447294490f837bcd398d028947388fecee8df9f29f1e7a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2534306a656e6b696e735f5f70726f2d3235613465333f6c6f676f3d74656c656772616d266c6f676f436f6c6f723d77686974652673616e6974697a653d74727565)
@@ -171,7 +176,7 @@
 			}
 		},
 		"contentMd5": "252049bb117c5bd3c77cac9051f1d198",
-		"groupName": "huimei",
+		"groupName": "test",
 		"sentOverTime": 1766282269132,
 		"customMsgId": "70790767392",
 		"MsgID": 4688172503,
@@ -180,7 +185,7 @@
 		"ChatType": 0,
 		"chatType": 0,
 		"id": 389284,
-		"name": "huimei",
+		"name": "test",
 		"readStatus": 1,
 		"time": 1766282269132,
 		"type": "group",
@@ -229,7 +234,7 @@
 			}
 		},
 		"contentMd5": "cc5c7d12c19bc3abe180f319197152f9",
-		"groupName": "huimei",
+		"groupName": "test",
 		"sentOverTime": 1766282182859,
 		"customMsgId": "10782894930",
 		"MsgID": 4688146125,
@@ -238,7 +243,7 @@
 		"ChatType": 1,
 		"chatType": 1,
 		"id": 389284,
-		"name": "huimei",
+		"name": "test",
 		"fileKey": "fg187h7vj9wwsi42",
 		"readStatus": 1,
 		"time": 1766282182859,
@@ -288,7 +293,7 @@
 			}
 		},
 		"contentMd5": "903b2ddcb647933ba7ba0afa182cc381",
-		"groupName": "huimei",
+		"groupName": "test",
 		"sentOverTime": 1766282345669,
 		"customMsgId": "10735110335",
 		"MsgID": 4688196815,
@@ -297,7 +302,7 @@
 		"ChatType": 7,
 		"chatType": 7,
 		"id": 389284,
-		"name": "huimei",
+		"name": "test",
 		"fileKey": "rpon4f3vp33bzh7h",
 		"readStatus": 1,
 		"fileName": "ui.xml",
@@ -387,7 +392,7 @@
       "score": "807415200000"
     },
     "contentMd5": "a6dc56281eb1b9f670ab84ec6fceeb44",
-    "groupName": "huimei、🤖群成员ID采集机器人",
+    "groupName": "test、🤖群成员ID采集机器人",
     "customMsgId": "20298293316",
     "MsgID": 4626337038,
     "UserID": 7237423,
@@ -395,7 +400,7 @@
     "ChatType": 0,
     "chatType": 0,
     "id": 389284,
-    "name": "huimei、🤖群成员ID采集机器人",
+    "name": "test、🤖群成员ID采集机器人",
     "sendUserName": "Pwgen：",
     "time": 1766115963742,
     "type": "group",
