@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "68 聊天协议文档"
   tagline: "消息收发 — WebSocket 协议与 API 参考"
-  image: /assets/68.png
+  image: /68.png
   actions:
     - theme: brand
       text: 联系购买
