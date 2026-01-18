@@ -1,7 +1,7 @@
 # 68聊天协议
 
 ## 简介
-<img src="./docs/assets/68.png" style="width:80px;"/>  
+<img src="./docs/public/68.png" style="width:80px;"/>  
 
 68助手是一款基于68聊天软件的第三方自动化协议接口，支持通过websocket进行消息的发送与接收，方便开发者进行二次开发与集成，编写各类机器人🤖。
 
