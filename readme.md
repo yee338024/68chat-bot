@@ -23,7 +23,19 @@
 	"message": "Hello"
 }
 ```
-收到服务器回复后，代表连接成功。
+✅随后每隔`3秒`会有个心跳包回调：
+
+```json
+{"operator":"network","data":{"networkStatusType":"socketLogin"}}
+```
+
+❌网络要是断开的话，会回调：
+```json
+{"operator":"network","data":{"networkStatusType":"socketLoginout"}}
+```
+
+如果连接断开，客户端会自动进行重连，直到连接成功为止。
+
 
 > websocket数据通讯格式全部采用`json`格式
 
