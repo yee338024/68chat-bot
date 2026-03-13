@@ -253,6 +253,22 @@
 }
 ```
 
+### 消息双向删除
+```json
+{
+	"operator": "recall_msg",
+	"data": {
+		"recallOneToOneMessages": [
+			{
+				"msgId": "2565552547",
+				"msgTargetId": "4008697",
+				"clearTime": "1773390253258"
+			}
+		]
+	}
+}
+```
+
 ### 新的文件消息
 ```json
 {
