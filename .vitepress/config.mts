@@ -24,6 +24,7 @@ export default defineConfig({
         items: [
           { text: '使用说明', link: '/guide' },
           { text: 'WebSocket 协议', link: '/websocket' },
+          { text: 'HTTP 协议', link: '/http' },
           { text: '收发送消息说明', link: '/msg' },
           { text: '群组事件', link: '/group' }
         ]
