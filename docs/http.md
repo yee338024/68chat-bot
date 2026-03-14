@@ -213,12 +213,13 @@
 {
   "id": 4017572,
   "type": "friend",
+  "custom_msg_id": "104418592528",            👈自定义消息id，随机数11位，不能重复
   "list": [
   {
 	"type": "text",
 	"values": {
 	"chatType": 0,
-	"content": "这里改成你的消息"
+	"content": "这里改成你的消息,\\n换一行"
 	}
   }
   ],
@@ -247,6 +248,7 @@
 {
   "file": "C:/Users/rtuge/Desktop/test.txt",
   "type": "group",
+  "custom_msg_id": "104418592527",            👈自定义消息id，随机数11位，不能重复
   "id": 389284
 }
 ```
@@ -525,6 +527,32 @@
 	  "groupId": 389284
 	}
   }
+}
+```
+
+## 删除消息
+### 接口信息
+
+- 方法：`POST`
+- 地址：`http://127.0.0.1:5598/deleteMsg`
+
+### 请求参数
+
+```json
+{
+  "id": 389284,
+  "type": "group",
+  "customMsgId": "104418592516",
+  "msgId": 983557403,
+  "isRemoteDeletion" : true       👈 true 代表远程删除（即双向删除），false代表本地删除
+}
+```
+
+### 响应结果
+
+```json
+{
+  "data": "ok"
 }
 ```
 

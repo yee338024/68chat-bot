@@ -108,6 +108,7 @@
   "data": {
     "id": 389284,
     "type": "group",
+    "custom_msg_id": "104418592528",            👈自定义消息id，随机数11位，不能重复
     "list": [
       {
         "type": "text",
@@ -127,6 +128,7 @@
 {
     "id": "1",
     "type": "sendFile",
+    "custom_msg_id": "104418592527",            👈自定义消息id，随机数11位，不能重复   
     "data": {
         "file": "C:/Users/rtuge/Desktop/b.mp4",  👈文件绝对路径
         "type": "group",                         👈如果是私聊填 'friend'
